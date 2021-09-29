@@ -82,7 +82,7 @@ input {
 
 .input-field::placeholder {
     letter-spacing: 0.3em;
-    transform: translate(3.5%, -15%);
+    transform: translate(3.5%, -20%);
 }
 
 .name-field, .message-field {
