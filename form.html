@@ -12,31 +12,30 @@
 <body>
     <main class="screen-background">
         <section>
-            <div class="form-background-red">                
+            <div class="form-background-red">
 
-                <form class="form font" autocomplete="off">
+                <div class="form-background-yellow"></div>                 
+                
+                <form class="form form-font" autocomplete="off">
                     <label for="name" class="label">FULL NAME</label>
-                    <input type="text" name="name" id="name" class="input-field">
-                    <div class="name-message-line"></div>
+                    <input type="text" name="name" id="name" class="input-field name-field">
+                    
+                    <label for="email" class="label email-label">EMAIL</label>
+                    <input type="email" name="email" id="email" class="input-field email-field" placeholder="Your Email">  
+                    
+                    <label for="subject" class="label subject-label">MESSAGE REGARDING</label>
+                    <input type="text" name="subject" id="subject" class="input-field subject-field">
 
-                    <label for="email" class="label">EMAIL</label>
-                    <input type="email" name="email" id="email" class="input-field" placeholder="Your Email">
-                    <div class="email-subject-line" required></div>
-
-                    <label for="subject" class="label">MESSAGE REGARDING</label>
-                    <input type="text" name="subject" id="subject" class="input-field">
-                    <div class="email-subject-line"></div>
-
-                    <label for="message" class="label">MESSAGE</label>
-                    <input type="text" name="message" id="message" class="input-field" placeholder="Your Message">
-                    <div class="name-message-line"></div>
-
-                    <button class="btn font">SEND MESSAGE</button>
-
+                    <label for="message" class="label message-label">MESSAGE</label>
+                    <input type="text" name="message" id="message" class="input-field message-field" placeholder="Your Message">
+                    
+                    <button class="btn btn-font">SEND MESSAGE</button>
                 </form>
-            </div>
-            </section>
 
+                <div><img src="images/rubber-duck.png" alt="Rubber duck." class="rubber-duck"></div>
+
+            </div>
+        </section>
     </main>
     
 </body>
