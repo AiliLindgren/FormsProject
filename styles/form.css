@@ -129,8 +129,10 @@ input {
     font-weight: 700;
     text-align: center;
     align-self: center;
+    transition: background-color 0.3s ease-in;
 }
 
 .btn:hover {
     background: #07515b;
+    cursor: pointer;
 }
